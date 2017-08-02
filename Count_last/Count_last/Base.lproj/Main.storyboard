@@ -36,6 +36,14 @@
                                     <action selector="tasu" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cqo-fE-87Q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkD-eK-Qiy">
+                                <rect key="frame" x="155" y="291" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="hiku" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtI-fV-c8d"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsK-6R-oFi">
                                 <rect key="frame" x="155" y="336" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,12 +52,12 @@
                                     <action selector="ccc" destination="BYZ-38-t0r" eventType="touchUpInside" id="39B-O3-bzc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkD-eK-Qiy">
-                                <rect key="frame" x="155" y="291" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlv-Dh-Mzg">
+                                <rect key="frame" x="155" y="390" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="-"/>
+                                <state key="normal" title="^2"/>
                                 <connections>
-                                    <action selector="hiku" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtI-fV-c8d"/>
+                                    <action selector="nijou" destination="BYZ-38-t0r" eventType="touchUpInside" id="V28-d3-INd"/>
                                 </connections>
                             </button>
                         </subviews>
