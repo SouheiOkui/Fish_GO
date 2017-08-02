@@ -36,6 +36,10 @@ class ViewController: UIViewController {
         count=0
         labe.text = String(count)
     }
+    @IBAction func nijou(){
+        count=count*count
+        labe.text = String(count)
+    }
 
 }
 
